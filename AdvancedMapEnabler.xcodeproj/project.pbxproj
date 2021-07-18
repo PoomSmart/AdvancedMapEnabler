@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A591759026A4653B0083BD5A /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591758F26A4653B0083BD5A /* AppKit.framework */; };
+		A591759226A4653B0083BD5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A591759126A4653B0083BD5A /* Foundation.framework */; };
+		A591759626A4653B0083BD5A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A591759526A4653B0083BD5A /* Info.plist */; };
+		A591759926A4653B0083BD5A /* AdvancedMapEnabler.m in Sources */ = {isa = PBXBuildFile; fileRef = A591759826A4653B0083BD5A /* AdvancedMapEnabler.m */; };
+		A591759D26A4653B0083BD5A /* ZKSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A591759C26A4653B0083BD5A /* ZKSwizzle.m */; };
+		A591759F26A4653B0083BD5A /* PrefixHeader.pch in Resources */ = {isa = PBXBuildFile; fileRef = A591759E26A4653B0083BD5A /* PrefixHeader.pch */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A591758C26A4653B0083BD5A /* AdvancedMapEnabler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdvancedMapEnabler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A591758F26A4653B0083BD5A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		A591759126A4653B0083BD5A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		A591759526A4653B0083BD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		A591759826A4653B0083BD5A /* AdvancedMapEnabler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdvancedMapEnabler.m; sourceTree = "<group>"; };
+		A591759B26A4653B0083BD5A /* ZKSwizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKSwizzle.h; sourceTree = "<group>"; };
+		A591759C26A4653B0083BD5A /* ZKSwizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKSwizzle.m; sourceTree = "<group>"; };
+		A591759E26A4653B0083BD5A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A591758926A4653B0083BD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A591759026A4653B0083BD5A /* AppKit.framework in Frameworks */,
+				A591759226A4653B0083BD5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A591758326A4653B0083BD5A = {
+			isa = PBXGroup;
+			children = (
+				A591759326A4653B0083BD5A /* AdvancedMapEnabler */,
+				A591758E26A4653B0083BD5A /* Frameworks */,
+				A591758D26A4653B0083BD5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A591758D26A4653B0083BD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A591758C26A4653B0083BD5A /* AdvancedMapEnabler.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A591758E26A4653B0083BD5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A591758F26A4653B0083BD5A /* AppKit.framework */,
+				A591759126A4653B0083BD5A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A591759326A4653B0083BD5A /* AdvancedMapEnabler */ = {
+			isa = PBXGroup;
+			children = (
+				A591759826A4653B0083BD5A /* AdvancedMapEnabler.m */,
+				A591759A26A4653B0083BD5A /* ZKSwizzle */,
+				A591759426A4653B0083BD5A /* Supporting Files */,
+			);
+			path = AdvancedMapEnabler;
+			sourceTree = "<group>";
+		};
+		A591759426A4653B0083BD5A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A591759526A4653B0083BD5A /* Info.plist */,
+				A591759E26A4653B0083BD5A /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A591759A26A4653B0083BD5A /* ZKSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				A591759B26A4653B0083BD5A /* ZKSwizzle.h */,
+				A591759C26A4653B0083BD5A /* ZKSwizzle.m */,
+			);
+			path = ZKSwizzle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A591758B26A4653B0083BD5A /* AdvancedMapEnabler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A59175A226A4653B0083BD5A /* Build configuration list for PBXNativeTarget "AdvancedMapEnabler" */;
+			buildPhases = (
+				A591758826A4653B0083BD5A /* Sources */,
+				A591758926A4653B0083BD5A /* Frameworks */,
+				A591758A26A4653B0083BD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdvancedMapEnabler;
+			productName = AdvancedMapEnabler;
+			productReference = A591758C26A4653B0083BD5A /* AdvancedMapEnabler.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A591758426A4653B0083BD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A591758B26A4653B0083BD5A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = A591758726A4653B0083BD5A /* Build configuration list for PBXProject "AdvancedMapEnabler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A591758326A4653B0083BD5A;
+			productRefGroup = A591758D26A4653B0083BD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A591758B26A4653B0083BD5A /* AdvancedMapEnabler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A591758A26A4653B0083BD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A591759F26A4653B0083BD5A /* PrefixHeader.pch in Resources */,
+				A591759626A4653B0083BD5A /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A591758826A4653B0083BD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A591759926A4653B0083BD5A /* AdvancedMapEnabler.m in Sources */,
+				A591759D26A4653B0083BD5A /* ZKSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A59175A026A4653B0083BD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		A59175A126A4653B0083BD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+			};
+			name = Release;
+		};
+		A59175A326A4653B0083BD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = HWW5CTH5AN;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AdvancedMapEnabler/PrefixHeader.pch;
+				INFOPLIST_FILE = AdvancedMapEnabler/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.AdvancedMapEnabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A59175A426A4653B0083BD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DEVELOPMENT_TEAM = HWW5CTH5AN;
+				DSTROOT = /;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AdvancedMapEnabler/PrefixHeader.pch;
+				INFOPLIST_FILE = AdvancedMapEnabler/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/MacEnhance/Plugins";
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ps.AdvancedMapEnabler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A591758726A4653B0083BD5A /* Build configuration list for PBXProject "AdvancedMapEnabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59175A026A4653B0083BD5A /* Debug */,
+				A59175A126A4653B0083BD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A59175A226A4653B0083BD5A /* Build configuration list for PBXNativeTarget "AdvancedMapEnabler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A59175A326A4653B0083BD5A /* Debug */,
+				A59175A426A4653B0083BD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A591758426A4653B0083BD5A /* Project object */;
+}
